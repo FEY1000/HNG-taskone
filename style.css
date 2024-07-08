@@ -9,9 +9,20 @@ body{
 
 
 
+
+
 @media screen and (orientation: landscape) {
     #container {
         display: inline-flex;
+    }
+
+    a {
+        color: rgb(8, 8, 8);
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 33px;
+        padding: 9px;
+        text-align: left;
+    
     }
 
     #email {
@@ -74,6 +85,15 @@ body{
         text-shadow: -.3em -.3em rgba(72, 71, 71, .1);
         border-bottom: 2px;
         border-bottom-color: aqua;
+    }
+
+    a {
+        color: rgb(8, 8, 8);
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 16px;
+        padding: 2px;
+        text-align: left;
+    
     }
 
     
@@ -150,13 +170,12 @@ img{
 
 
 #foot{
-    margin: 0px;
-    border: 0px;
     background-color: black;
+    background-size: cover;
     color: rgb(81, 78, 78);
     font-size: 20px;
-    max-height: 100px;
-    min-height: 40px;
-    padding-top: 12px;
-    padding-bottom: 8px;
+    max-height: 400px;
+    min-height: 90px;
+    padding: 10px;
+    margin-bottom: 0px;
 }
